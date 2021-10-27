@@ -1,0 +1,114 @@
+.title{
+    font-family: BERNIER, 'Shade';
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-bottom: 80px;
+    display: inline;
+    text-align: center;
+}
+.title h1{
+    position: relative;
+    top: 20px;
+}
+body{
+    background-color: #DCDCDC;
+    font-family:Bahnschrift;
+}
+.block-boss{
+    color: white;
+    text-align: center;
+}
+.registr{
+    font-family: Bahnschrift;
+    font-size: 25px;
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    color: black;
+    padding: 30px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.registr p{
+    position: relative;
+    left: 23px;
+}
+.form{
+    width: 410px;
+    height: 200px;
+    padding: 20px;
+    font-family: Bahnschrift;
+}
+
+.href{
+    padding: 8px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.msg{
+    border: 3px solid rgb(255, 19, 19);
+    background-color: rgb(255, 19, 19);
+    border-radius: 5px;
+    text-align: center;
+    font-family: Bahnschrift;
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+.main{
+    background-color: white;
+    width: 900px;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    border:1px solid transparent;
+    border-radius: 20px;
+}
+.inside-block{
+    font-size: 18px;
+    text-align: center;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+.btn1,.btn2{
+    border: 1px solid transparent;
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.btn1{
+    background-color:#3CB371;
+    font-size: 40px;
+}
+.btn2{
+    background-color:#FF0000;
+    font-size: 40px; 
+}
+.btn:hover{
+    color: #fff;
+}
+.list{
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+.score{
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: red;
+}
